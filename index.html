@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends Book</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="form">
+        <header>
+            <h1 id="title">Friends Feedback</h1>
+            <p id="description">Thank You my friend For Taking Your Time To Give me the FeedBack</p>
+        </header>
+        <form id="feedback-form">
+
+            <div class="form-group">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+
+
+
+
+
+            <div class="form-group">
+                <label for="talk">How do you feel when you talk to me?</label>
+                <select name="talk" id="dropdown">
+                    <option selected disabled value>Select Your feel</option>
+                    <option value="happy">Happy</option>
+                    <option value="veryhappy">Very happy</option>
+                    <option value="veryveryhappy">Very Very happy</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="roadtrip"> Do you like to go on a roadtrip with me?  </label>
+                <div class="radio-group">
+                    <input type="radio" name="roadtrip" id="never" value="never"><label for="never"> Never </label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" name="roadtrip" id="maybe" value="maybe"><label for="maybe"> Maybe </label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" name="roadtrip" id="likely" value="likely"><label for="likely"> Likely </label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" name="roadtrip" id="definitely" value="definitely"><label for="definitely">
+                        Definitely
+                    </label>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div class="form-group">
+                <label for="liked">Best colour that suits me?</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" name="liked" id="ui" value="ui"><label for="ui">
+                        Yellow
+                    </label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" name="liked" id="features" value="features"><label for="features">
+                       Red
+                    </label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" name="liked" id="service" value="service"><label for="service">
+                        Green
+                    </label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" name="liked" id="simpleness" value="simpleness"><label for="simpleness">
+                        White
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="labelmessage" id="labelmessage">A message for me!</label>
+                <textarea name="message" id="message" placeholder="Enter Your message.."></textarea>
+
+            </div>
+
+            <div class="form-group">
+                <button id="submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
